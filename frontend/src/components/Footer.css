@@ -1,0 +1,40 @@
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu__item {
+  margin: 10px 15px;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu__link:hover {
+  color: #00bcd4;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu__item {
+    margin: 5px 0;
+  }
+}
